@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<xml xmlns="http://www.w3.org/1999/xhtml">
+   <translation active="1">
+      <lang>eng</lang>
+   </translation>
+   <liste/>
+   <editions>
+      <edition data-key="dipl">Diplomatic</edition>
+      <edition data-key="interp">Interpretive</edition>
+   </editions>
+   <textpage>
+      <text n="Preface" label="Preface">
+         <pb n="MS178_134">MS178_134</pb>
+         <pb n="MS178_135">MS178_135</pb>
+         <pb n="MS178_136">MS178_136</pb>
+         <pb n="MS178_137">MS178_137</pb>
+      </text>
+   </textpage>
+   <pages>
+      <pair>
+         <pb n="MS178_134">MS178_134</pb>
+      </pair>
+      <pair>
+         <pb n="MS178_135">MS178_135</pb>
+      </pair>
+      <pair>
+         <pb n="MS178_136">MS178_136</pb>
+      </pair>
+      <pair>
+         <pb n="MS178_137">MS178_137</pb>
+      </pair>
+   </pages>
+   <idno/>
+</xml>

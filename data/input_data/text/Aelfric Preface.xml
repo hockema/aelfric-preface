@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Peterborough Chronicle</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <glyph xml:id="slong">
+               <mapping type="diplomatic">ſ</mapping>
+               <mapping type="normalized">s</mapping>
+            </glyph>
+            <glyph xml:id="wynn">
+               <mapping type="diplomatic">ƿ</mapping>
+               <mapping type="normalized">w</mapping>
+            </glyph>
+            <glyph xml:id="that">
+               <mapping type="diplomatic">ꝥ</mapping>
+               <mapping type="normalized">þæt</mapping>
+            </glyph>
+            <glyph xml:id="ywithdot">
+               <mapping type="diplomatic">ẏ</mapping>
+               <mapping type="normalized">y</mapping>
+            </glyph>
+            <glyph xml:id="umacron">
+               <mapping type="diplomatic">ū</mapping>
+               <mapping type="normalized">um</mapping>
+            </glyph>
+            <glyph xml:id="amacron">
+               <mapping type="diplomatic">ā</mapping>
+               <mapping type="interpretive">am</mapping>
+            </glyph>
+            <glyph xml:id="and">
+               <mapping type="diplomatic">⁊</mapping>
+               <mapping type="normalized">and</mapping>
+            </glyph>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xml:id="Ælfric_Preface">
+      <surface corresp="#MS178_134">
+         <graphic url="../images/single/MS178_134.jpg" width="943px" height="1463px"/>
+         <zone xml:id="line_134_1" lry="422" lrx="928" uly="385" ulx="319" rendition="Line"
+            corresp="#lb_134_8" rend="visible"/>
+         <zone xml:id="line_134_2" corresp="#lb_134_9" lry="457" lrx="909" uly="422" ulx="313"
+            rendition="Line" rend="visible"/>
+         <zone xml:id="line_134_3" corresp="#lb_134_10" lry="496" lrx="922" uly="461" ulx="212"
+            rendition="Line" rend="visible"/>
+         <zone xml:id="line_134_4" corresp="#lb_134_11" lry="531" lrx="900" uly="495" ulx="214"
+            rendition="Line" rend="visible"/>
+         <zone xml:id="line_134_5" corresp="#lb_134_12" rendition="Line" rend="visible" lry="570"
+            lrx="938" uly="535" ulx="211"/>
+         <zone xml:id="line_134_6" corresp="#lb_134_13" rendition="Line" rend="visible" lry="607"
+            lrx="880" uly="571" ulx="212"/>
+         <zone xml:id="line_134_7" corresp="#lb_134_14" rendition="Line" rend="visible" lry="639"
+            lrx="911" uly="604" ulx="212"/>
+         <zone xml:id="line_134_8" corresp="#lb_134_15" rendition="Line" rend="visible" lry="680"
+            lrx="916" uly="642" ulx="213"/>
+         <zone xml:id="line_134_9" corresp="#lb_134_16" rendition="Line" rend="visible" lry="715"
+            lrx="900" uly="682" ulx="213"/>
+         <zone xml:id="line_134_10" corresp="#lb_134_17" rendition="Line" rend="visible" lry="760"
+            lrx="916" uly="723" ulx="212"/>
+         <zone xml:id="line_134_11" corresp="#lb_134_18" rendition="Line" rend="visible" lry="793"
+            lrx="911" uly="761" ulx="211"/>
+         <zone xml:id="line_134_12" corresp="#lb_134_19" rendition="Line" rend="visible" lry="834"
+            lrx="919" uly="792" ulx="213"/>
+         <zone xml:id="line_134_13" corresp="#lb_134_20" rendition="Line" rend="visible" lry="873"
+            lrx="911" uly="830" ulx="212"/>
+         <zone xml:id="line_134_14" corresp="#lb_134_21" rendition="Line" rend="visible" lry="911"
+            lrx="906" uly="874" ulx="213"/>
+         <zone xml:id="line_134_15" corresp="#lb_134_22" rendition="Line" rend="visible" lry="944"
+            lrx="877" uly="906" ulx="218"/>
+         <zone xml:id="line_134_16" corresp="#lb_134_23" rendition="Line" rend="visible" lry="982"
+            lrx="920" uly="944" ulx="211"/>
+         <zone xml:id="line_134_17" corresp="#lb_134_24" rendition="Line" rend="visible" lry="1020"
+            lrx="920" uly="988" ulx="211"/>
+         <zone xml:id="line_134_18" corresp="#lb_134_25" rendition="Line" rend="visible" lry="1061"
+            lrx="917" uly="1026" ulx="213"/>
+         <zone xml:id="line_134_19" corresp="#lb_134_26" rendition="Line" rend="visible" lry="1096"
+            lrx="938" uly="1061" ulx="213"/>
+         <zone xml:id="line_134_20" corresp="#lb_134_27" rendition="Line" rend="visible" lry="1133"
+            lrx="933" uly="1095" ulx="212"/>
+         <zone xml:id="line_134_21" corresp="#lb_134_28" rendition="Line" rend="visible" lry="1176"
+            lrx="901" uly="1136" ulx="214"/>
+         <zone xml:id="line_134_22" corresp="#lb_134_29" rendition="Line" rend="visible" lry="1207"
+            lrx="917" uly="1176" ulx="213"/>
+         <zone xml:id="line_134_23" corresp="#lb_134_30" rendition="Line" rend="visible" lry="1242"
+            lrx="919" uly="1207" ulx="207"/>
+      </surface>
+      <surface corresp="#MS178_135">
+         <graphic url="../images/single/MS178_135.jpg" width="949px" height="1463px"/>
+         <zone xml:id="line_135_1" corresp="#lb_135_1" rendition="Line" rend="visible" lry="159"
+            lrx="763" uly="116" ulx="80"/>
+         <zone xml:id="line_135_2" corresp="#lb_135_2" rendition="Line" rend="visible" lry="196"
+            lrx="782" uly="153" ulx="68"/>
+         <zone xml:id="line_135_3" corresp="#lb_135_3" rendition="Line" rend="visible" lry="238"
+            lrx="771" uly="187" ulx="74"/>
+         <zone xml:id="line_135_4" corresp="#lb_135_4" rendition="Line" rend="visible" lry="277"
+            lrx="752" uly="235" ulx="70"/>
+         <zone xml:id="line_135_5" corresp="#lb_135_5" rendition="Line" rend="visible" lry="315"
+            lrx="773" uly="271" ulx="71"/>
+         <zone xml:id="line_135_6" corresp="#lb_135_6" rendition="Line" rend="visible" lry="352"
+            lrx="780" uly="310" ulx="71"/>
+         <zone xml:id="line_135_7" corresp="#lb_135_7" rendition="Line" rend="visible" lry="390"
+            lrx="772" uly="356" ulx="69"/>
+         <zone xml:id="line_135_8" corresp="#lb_135_8" rendition="Line" rend="visible" lry="425"
+            lrx="776" uly="388" ulx="70"/>
+         <zone xml:id="line_135_9" corresp="#lb_135_9" rendition="Line" rend="visible" lry="468"
+            lrx="765" uly="428" ulx="75"/>
+         <zone xml:id="line_135_10" corresp="#lb_135_10" rendition="Line" rend="visible" lry="502"
+            lrx="756" uly="463" ulx="72"/>
+         <zone xml:id="line_135_11" corresp="#lb_135_11" rendition="Line" rend="visible" lry="543"
+            lrx="793" uly="503" ulx="73"/>
+         <zone xml:id="line_135_12" corresp="#lb_135_12" rendition="Line" rend="visible" lry="582"
+            lrx="796" uly="542" ulx="70"/>
+         <zone xml:id="line_135_13" corresp="#lb_135_13" rendition="Line" rend="visible" lry="612"
+            lrx="770" uly="572" ulx="77"/>
+         <zone xml:id="line_135_14" corresp="#lb_135_14" rendition="Line" rend="visible" lry="653"
+            lrx="762" uly="608" ulx="75"/>
+         <zone xml:id="line_135_15" corresp="#lb_135_15" rendition="Line" rend="visible" lry="685"
+            lrx="773" uly="645" ulx="74"/>
+         <zone xml:id="line_135_16" corresp="#lb_135_16" rendition="Line" rend="visible" lry="725"
+            lrx="768" uly="681" ulx="77"/>
+         <zone xml:id="line_135_17" corresp="#lb_135_17" rendition="Line" rend="visible" lry="760"
+            lrx="766" uly="720" ulx="76"/>
+         <zone xml:id="line_135_18" corresp="#lb_135_18" rendition="Line" rend="visible" lry="799"
+            lrx="763" uly="761" ulx="72"/>
+         <zone xml:id="line_135_19" corresp="#lb_135_19" rendition="Line" rend="visible" lry="836"
+            lrx="783" uly="795" ulx="76"/>
+         <zone xml:id="line_135_20" corresp="#lb_135_20" rendition="Line" rend="visible" lry="878"
+            lrx="780" uly="837" ulx="73"/>
+         <zone xml:id="line_135_21" corresp="#lb_135_21" rendition="Line" rend="visible" lry="913"
+            lrx="790" uly="881" ulx="74"/>
+         <zone xml:id="line_135_22" corresp="#lb_135_22" rendition="Line" rend="visible" lry="958"
+            lrx="787" uly="917" ulx="73"/>
+         <zone xml:id="line_135_23" corresp="#lb_135_23" rendition="Line" rend="visible" lry="996"
+            lrx="785" uly="962" ulx="70"/>
+         <zone xml:id="line_135_24" corresp="#lb_135_24" rendition="Line" rend="visible" lry="1028"
+            lrx="741" uly="998" ulx="71"/>
+         <zone xml:id="line_135_25" corresp="#lb_135_25" rendition="Line" rend="visible" lry="1064"
+            lrx="746" uly="1025" ulx="69"/>
+         <zone xml:id="line_135_26" corresp="#lb_135_26" rendition="Line" rend="visible" lry="1103"
+            lrx="802" uly="1067" ulx="70"/>
+         <zone xml:id="line_135_27" corresp="#lb_135_27" rendition="Line" rend="visible" lry="1146"
+            lrx="773" uly="1104" ulx="69"/>
+         <zone xml:id="line_135_28" corresp="#lb_135_28" rendition="Line" rend="visible" lry="1182"
+            lrx="757" uly="1148" ulx="65"/>
+         <zone xml:id="line_135_29" corresp="#lb_135_29" rendition="Line" rend="visible" lry="1220"
+            lrx="796" uly="1183" ulx="68"/>
+         <zone xml:id="line_135_30" corresp="#lb_135_30" rendition="Line" rend="visible" lry="1253"
+            lrx="774" uly="1213" ulx="65"/>
+      </surface>
+      <surface corresp="#MS178_136">
+         <graphic url="../images/single/MS178_136.jpg" width="943px" height="1474px"/>
+         <zone xml:id="line_136_1" corresp="#lb_136_1" rendition="Line" rend="visible" lry="159" lrx="873" uly="110" ulx="174"/>
+         <zone xml:id="line_136_2" corresp="#lb_136_2" rendition="Line" rend="visible" lry="200" lrx="863" uly="156" ulx="177"/>
+         <zone xml:id="line_136_3" corresp="#lb_136_3" rendition="Line" rend="visible" lry="244" lrx="889" uly="194" ulx="178"/>
+         <zone xml:id="line_136_4" corresp="#lb_136_4" rendition="Line" rend="visible" lry="275" lrx="892" uly="233" ulx="180"/>
+         <zone xml:id="line_136_5" corresp="#lb_136_5" rendition="Line" rend="visible" lry="323" lrx="880" uly="278" ulx="180"/>
+         <zone xml:id="line_136_6" corresp="#lb_136_6" rendition="Line" rend="visible" lry="356" lrx="875" uly="306" ulx="184"/>
+         <zone xml:id="line_136_7" corresp="#lb_136_7" rendition="Line" rend="visible" lry="394" lrx="873" uly="351" ulx="188"/>
+         <zone xml:id="line_136_8" corresp="#lb_136_8" rendition="Line" rend="visible" lry="436" lrx="878" uly="390" ulx="180"/>
+         <zone xml:id="line_136_9" corresp="#lb_136_9" rendition="Line" rend="visible" lry="471" lrx="885" uly="429" ulx="186"/>
+         <zone xml:id="line_136_10" corresp="#lb_136_10" rendition="Line" rend="visible" lry="511" lrx="878" uly="461" ulx="184"/>
+         <zone xml:id="line_136_11" corresp="#lb_136_11" rendition="Line" rend="visible" lry="547" lrx="877" uly="501" ulx="186"/>
+         <zone xml:id="line_136_12" corresp="#lb_136_12" rendition="Line" rend="visible" lry="582" lrx="898" uly="532" ulx="186"/>
+         <zone xml:id="line_136_13" corresp="#lb_136_13" rendition="Line" rend="visible" lry="612" lrx="866" uly="580" ulx="186"/>
+         <zone xml:id="line_136_14" corresp="#lb_136_14" rendition="Line" rend="visible" lry="647" lrx="881" uly="608" ulx="187"/>
+         <zone xml:id="line_136_15" corresp="#lb_136_15" rendition="Line" rend="visible" lry="691" lrx="891" uly="653" ulx="189"/>
+         <zone xml:id="line_136_16" corresp="#lb_136_16" rendition="Line" rend="visible" lry="721" lrx="927" uly="688" ulx="189"/>
+         <zone xml:id="line_136_17" corresp="#lb_136_17" rendition="Line" rend="visible" lry="764" lrx="908" uly="728" ulx="193"/>
+         <zone xml:id="line_136_18" corresp="#lb_136_18" rendition="Line" rend="visible" lry="803" lrx="891" uly="768" ulx="193"/>
+         <zone xml:id="line_136_19" corresp="#lb_136_19" rendition="Line" rend="visible" lry="840" lrx="900" uly="803" ulx="192"/>
+         <zone xml:id="line_136_20" corresp="#lb_136_20" rendition="Line" rend="visible" lry="880" lrx="882" uly="850" ulx="193"/>
+         <zone xml:id="line_136_21" corresp="#lb_136_21" rendition="Line" rend="visible" lry="925" lrx="890" uly="881" ulx="193"/>
+         <zone xml:id="line_136_22" corresp="#lb_136_22" rendition="Line" rend="visible" lry="957" lrx="887" uly="913" ulx="196"/>
+         <zone xml:id="line_136_23" corresp="#lb_136_23" rendition="Line" rend="visible" lry="993" lrx="888" uly="959" ulx="197"/>
+         <zone xml:id="line_136_24" corresp="#lb_136_24" rendition="Line" rend="visible" lry="1033" lrx="914" uly="991" ulx="196"/>
+         <zone xml:id="line_136_25" corresp="#lb_136_25" rendition="Line" rend="visible" lry="1078" lrx="907" uly="1031" ulx="200"/>
+         <zone xml:id="line_136_26" corresp="#lb_136_26" rendition="Line" rend="visible" lry="1113" lrx="902" uly="1067" ulx="202"/>
+         <zone xml:id="line_136_27" corresp="#lb_136_27" rendition="Line" rend="visible" lry="1148" lrx="898" uly="1100" ulx="201"/>
+         <zone xml:id="line_136_28" corresp="#lb_136_28" rendition="Line" rend="visible" lry="1186" lrx="897" uly="1144" ulx="202"/>
+         <zone xml:id="line_136_29" corresp="#lb_136_29" rendition="Line" rend="visible" lry="1224" lrx="893" uly="1182" ulx="200"/>
+         <zone xml:id="line_136_30" corresp="#lb_136_30" rendition="Line" rend="visible" lry="1263" lrx="895" uly="1222" ulx="203"/>
+      </surface>
+      <surface corresp="#MS178_137">
+         <graphic url="../images/single/MS178_137.jpg" width="973px" height="1452px"/>
+         <zone xml:id="line_137_1" corresp="#lb_137_1" rendition="Line" rend="visible" lry="150"
+            lrx="587" uly="116" ulx="68"/>
+      </surface>
+   </facsimile>
+   <text n="Preface" type="prose" xml:id="Preface">
+      <front/>
+      <body>
+         <pb n="MS178_134" xml:id="MS178_134"/>
+         <p>
+            <lb xml:id="lb_134_1"/>
+            <lb xml:id="lb_134_2"/>
+            <lb xml:id="lb_134_3"/>
+            <lb xml:id="lb_134_4"/>
+            <lb xml:id="lb_134_5"/>
+            <lb xml:id="lb_134_6"/>
+            <lb xml:id="lb_134_7"/>
+            <lb n="1" xml:id="lb_134_8" facs="#line_134_1"/><note n="1" type="comment">Cambride,
+               University Library MS Gg. 3.28 begins with Ælfric's personal introduction and
+               translation philosophy. Other manuscripts copying these homilies exclude such
+               biographical information and direct addresses to future scribes and
+            readers.</note>Menn behofiað godre lare <g ref="#and"/>
+            <g ref="#slong"/><g ref="#wynn"/>iðo<g ref="#slong"/>t nu on þi<g ref="#slong"/>um <lb
+               n="2" xml:id="lb_134_9" facs="#line_134_2"/>timan þe is geendung þissere <g
+               ref="#wynn"/>orulde <g ref="#and"/> beoð <lb n="3" xml:id="lb_134_10"
+               facs="#line_134_3"/>fela frecedn<g ref="#ywithdot"/>ssa on manc<g ref="#ywithdot"
+            />nne ærþam þe <g ref="#slong"/>e ende beo. <lb n="4" xml:id="lb_134_11"
+               facs="#line_134_4"/><g ref="#slong"/><g ref="#wynn"/>a <g ref="#slong"/><g
+               ref="#wynn"/>a ure drihten on his god<g ref="#slong"/>pelle c<g ref="#wynn"/>æð to
+               h<g ref="#ywithdot"/>s leor <lb n="5" xml:id="lb_134_12" facs="#line_134_5"/>ning
+            cnihtum. þonne beoð <g ref="#slong"/><g ref="#wynn"/><g ref="#ywithdot"/>lce gedrecedn<g
+               ref="#ywithdot"/>s<g ref="#slong"/>a <g ref="#slong"/><g ref="#wynn"/><g
+               ref="#ywithdot"/>lce <lb n="6" xml:id="lb_134_13" facs="#line_134_6"/>næron næfre ær
+            fram fr<g ref="#ywithdot"/>mðe middaneardes; <lb n="7" xml:id="lb_134_14"
+               facs="#line_134_7"/>Manega lease cri<g ref="#slong"/>tas cumað on min<g
+               ref="#umacron"/> naman, c<g ref="#wynn"/>e <lb n="8" xml:id="lb_134_15"
+               facs="#line_134_8"/>þende ic eom cri<g ref="#slong"/>t, <g ref="#and"/>
+            <g ref="#wynn"/><g ref="#ywithdot"/>rcað fela tacna <g ref="#and"/>
+            <g ref="#wynn"/>undra, to be <lb n="9" xml:id="lb_134_16" facs="#line_134_9"/>pæcanne
+               manc<g ref="#ywithdot"/>nn. <g ref="#and"/> eac <g ref="#slong"/><g ref="#wynn"/><g
+               ref="#ywithdot"/>lce þa gecorenan menn <lb n="10" xml:id="lb_134_17"
+               facs="#line_134_10"/>gif hit ge<g ref="#wynn"/>urðan mæg. <g ref="#and"/> butan <g
+               ref="#slong"/>e ælmihtiga god þa dagas ge <lb n="11" xml:id="lb_134_18"
+               facs="#line_134_11"/><g ref="#slong"/>c<g ref="#ywithdot"/>rte; eall menni<g
+               ref="#slong"/>c for<g ref="#wynn"/>urde. ac for h<g ref="#ywithdot"/>s gecorenum <lb
+               n="12" xml:id="lb_134_19" facs="#line_134_12"/>he ge<g ref="#slong"/>c<g
+               ref="#ywithdot"/>rt þa dagas. Geh<g ref="#wynn"/>a mæg þe eaþelicor þa to<g
+               ref="#wynn"/>ear <lb n="13" xml:id="lb_134_20"/>dan co<g ref="#slong"
+               facs="#line_134_13"/>tnunge acuman þurh godes fultum. gif he bið <lb n="14"
+               xml:id="lb_134_21" facs="#line_134_14"/>þurh boclice lareo<g ref="#wynn"/>as getr<g
+               ref="#ywithdot"/>med. forþam ðe þa beoð <lb n="15" xml:id="lb_134_22"
+               facs="#line_134_15"/>gehealdene þe oð ende on geleafan þurh<g ref="#wynn"/>uniað; <lb
+               n="16" xml:id="lb_134_23" facs="#line_134_16"/>Fela gedrecedn<g ref="#ywithdot"/>ssa
+               <g ref="#and"/> earfoðn<g ref="#ywithdot"/>sse becumað on þis <lb n="17"
+               xml:id="lb_134_24" facs="#line_134_17"/>sere <g ref="#wynn"/>orulde ær h<g
+               ref="#ywithdot"/>re geendunge. <g ref="#and"/> þa <g ref="#slong"/><g ref="#ywithdot"
+            />nd þa b<g ref="#ywithdot"/>de <lb n="18" xml:id="lb_134_25" facs="#line_134_18"/>las
+            þæs ecan for<g ref="#wynn"/><g ref="#ywithdot"/>rdes on <g ref="#ywithdot"/>felum mann<g
+               ref="#umacron"/>. þe for <lb n="19" xml:id="lb_134_26" facs="#line_134_19"/>heora
+               mandæd<g ref="#umacron"/>
+            <g ref="#slong"/><g ref="#ywithdot"/>ððan ecelice þro<g ref="#wynn"/>iað on þære <g
+               ref="#slong"/><g ref="#wynn"/>ear <lb n="20" xml:id="lb_134_27" facs="#line_134_20"
+            />tan helle; ðonne c<g ref="#ywithdot"/>mð <g ref="#slong"/>e antecri<g ref="#slong"/>t,
+               <g ref="#slong"/>e bið menni<g ref="#slong"/>c man, <lb n="21" xml:id="lb_134_28"
+               facs="#line_134_21"/><g ref="#and"/>
+            <g ref="#slong"/>oð deofol. he bið beg<g ref="#ywithdot"/>ten mid forlire of <g
+               ref="#wynn"/>ere <g ref="#and"/>
+            <lb n="22" xml:id="lb_134_29" facs="#line_134_22"/>of <g ref="#wynn"/>ife; <g ref="#and"
+            /> he bið mid deofles ga<g ref="#slong"/>te af<g ref="#ywithdot"/>lled<note n="a"
+               type="critical">from 'he bið begẏten,' Cambridge, University Library MS Gg. 3.28
+               reads: "swa swa ure Hælend is soðlice mann and God on anum hade."</note>; <g
+               ref="#and"/> se <lb n="23" xml:id="lb_134_30" facs="#line_134_23"/>ge<g ref="#slong"
+               />e<g ref="#wynn"/>enlica deofol þonne <g ref="#wynn"/><g ref="#ywithdot"/>rcð
+            ungerime <g ref="#wynn"/>undra </p>
+         <pb n="MS178_135" xml:id="MS178_135"/>
+         <p>
+            <lb n="1" xml:id="lb_135_1" facs="#line_135_1"/><g ref="#and"/> c<g ref="#wynn"/><g
+               ref="#ywithdot"/>ð <g ref="#that"/> he s<g ref="#ywithdot"/>lf beo god, <g ref="#and"/>
+            <g ref="#wynn"/><g ref="#ywithdot"/>le neadian manc<g ref="#ywithdot"/>nn to h<g
+               ref="#ywithdot"/>s ged<g ref="#wynn"/><g ref="#ywithdot"/>lde <lb n="2"
+               xml:id="lb_135_2" facs="#line_135_2"/>ac h<g ref="#ywithdot"/>s tima ne bið na lang<g
+               ref="#slong"/>um. forþam þe godes grama h<g ref="#ywithdot"/>ne <lb n="3"
+               xml:id="lb_135_3" facs="#line_135_3"/>fordeð, <g ref="#and"/> þeos <g ref="#wynn"
+            />oruld bið <g ref="#slong"/><g ref="#ywithdot"/>ððan geendod; Cri<g ref="#slong"/>t ure
+            driħ <lb n="4" xml:id="lb_135_4" facs="#line_135_4"/>gehælde untrume <g ref="#and"/>
+            adlige. <g ref="#and"/> þes deofol þe is gehaten ante <lb n="5" xml:id="lb_135_5"
+               facs="#line_135_5"/>cri<g ref="#slong"/>t <g ref="#that"/> i<g ref="#slong"/> gereht
+               þ<g ref="#wynn"/><g ref="#ywithdot"/>rlic cri<g ref="#slong"/>t alefað <g ref="#and"
+            /> geuntrumað þa halan. <lb n="6" xml:id="lb_135_6" facs="#line_135_6"/><g ref="#and"/>
+            nænne ne gehælð fr<g ref="#amacron"/> untrumn<g ref="#ywithdot"/>ss<g ref="#amacron"/>,
+            butan þ<g ref="#amacron"/> anum þe <lb n="7" xml:id="lb_135_7" facs="#line_135_7"/>he ær
+               a<g ref="#wynn"/><g ref="#ywithdot"/>rde s<g ref="#ywithdot"/>lf; he <g ref="#and"/>
+               h<g ref="#ywithdot"/>s gingran a<g ref="#wynn"/><g ref="#ywithdot"/>rdað manna licha
+               <lb n="8" xml:id="lb_135_8" facs="#line_135_8"/>man digollice þurh deofles cræft <g
+               ref="#and"/> gehælað hi openlice <lb n="9" xml:id="lb_135_9" facs="#line_135_9"/>on
+            manna ge<g ref="#slong"/>ihðe. ac he ne mæg nænne gehælan; þe god <lb n="10"
+               xml:id="lb_135_10" facs="#line_135_10"/>s<g ref="#ywithdot"/>lf ær geuntrumode; he
+            neadað þurh <g ref="#ywithdot"/>feln<g ref="#ywithdot"/>sse <lb n="11"
+               xml:id="lb_135_11" facs="#line_135_11"/><g ref="#that"/> menn <g ref="#slong"/>ceolon
+            bugan fram heora <g ref="#slong"/>c<g ref="#ywithdot"/>ppendes geleafan <lb n="12"
+               xml:id="lb_135_12" facs="#line_135_12"/>to h<g ref="#ywithdot"/>s lea<g ref="#slong"
+               />ung<g ref="#umacron"/>. seþe is ord ælcere lea<g ref="#slong"/>unge <g ref="#and"/>
+            <g ref="#ywithdot"/>feln<g ref="#ywithdot"/>sse. <lb n="13" xml:id="lb_135_13"
+               facs="#line_135_13"/>Se ælmihtiga god geþafað þam arlea<g ref="#slong"/>an antecri<g
+               ref="#slong"/>te to <lb n="14" xml:id="lb_135_14" facs="#line_135_14"/><g ref="#wynn"
+               /><g ref="#ywithdot"/>rcenne tacna <g ref="#and"/>
+            <g ref="#wynn"/>undra <g ref="#and"/> ehtn<g ref="#ywithdot"/>sse to feorðan heal <lb
+               n="15" xml:id="lb_135_15" facs="#line_135_15"/>fan geare. forðon þe on þam timan b<g
+               ref="#ywithdot"/>ð <g ref="#slong"/><g ref="#wynn"/>a m<g ref="#ywithdot"/>cel <g
+               ref="#ywithdot"/>fel <lb n="16" xml:id="lb_135_16" facs="#line_135_16"/>n<g
+               ref="#ywithdot"/>ss <g ref="#and"/> þ<g ref="#wynn"/><g ref="#ywithdot"/>rn<g
+               ref="#ywithdot"/>s bet<g ref="#wynn"/>uhs manc<g ref="#ywithdot"/>nne <g ref="#that"
+            /> h<g ref="#ywithdot"/>
+            <g ref="#wynn"/>el <g ref="#wynn"/><g ref="#ywithdot"/>rðe beoð <lb n="17"
+               xml:id="lb_135_17" facs="#line_135_17"/>þære deoflican ehtn<g ref="#ywithdot"/>sse to
+            ecum for<g ref="#wynn"/><g ref="#ywithdot"/>rde. þam ðe <lb n="18" xml:id="lb_135_18"
+               facs="#line_135_18"/>h<g ref="#ywithdot"/>m tobugað. <g ref="#and"/> to ecere m<g
+               ref="#ywithdot"/>rhðe; ðam þe h<g ref="#ywithdot"/>m þurh <lb n="19"
+               xml:id="lb_135_19" facs="#line_135_19"/>geleafan <g ref="#wynn"/>iðc<g ref="#wynn"
+            />eðað; God geþafað eac <g ref="#that"/> h<g ref="#ywithdot"/>s gecorenan <lb n="20"
+               xml:id="lb_135_20" facs="#line_135_20"/>þegnas beon aclænsade fram eall<g
+               ref="#umacron"/>
+            <g ref="#slong"/><g ref="#ywithdot"/>nn<g ref="#umacron"/> þurh ða or <lb n="21"
+               xml:id="lb_135_21" facs="#line_135_21"/>mætan ehtn<g ref="#ywithdot"/>ssa, <g
+               ref="#slong"/><g ref="#wynn"/>a <g ref="#slong"/><g ref="#wynn"/>a gold bið on f<g
+               ref="#ywithdot"/>re afandod. þa of <lb n="22" xml:id="lb_135_22" facs="#line_135_22"
+            />slihð <g ref="#slong"/>e deofol þe h<g ref="#ywithdot"/>m <g ref="#wynn"/>ið<g
+               ref="#slong"/>tandað; <g ref="#and"/> hi þonne farað mid hal <lb n="23"
+               xml:id="lb_135_23" facs="#line_135_23"/>gum mart<g ref="#ywithdot"/>rdome to heofenan
+            rice; þa þe h<g ref="#ywithdot"/>s lea<g ref="#slong"/>ungum <lb n="24"
+               xml:id="lb_135_24" facs="#line_135_24"/>gel<g ref="#ywithdot"/>fað; þam he arað; <g
+               ref="#and"/> h<g ref="#ywithdot"/> habbað <g ref="#slong"/><g ref="#ywithdot"/>ððan
+            þa <lb n="25" xml:id="lb_135_25" facs="#line_135_25"/>ecan <g ref="#slong"/>usle to
+            edleane heora ged<g ref="#wynn"/><g ref="#ywithdot"/>ldes; Se arlea<g ref="#slong"/>a
+            deð <g ref="#that"/>
+            <lb n="26" xml:id="lb_135_26" facs="#line_135_26"/>f<g ref="#ywithdot"/>r c<g
+               ref="#ywithdot"/>mð ufan <g ref="#slong"/><g ref="#wynn"/><g ref="#ywithdot"/>lce of
+               heofon<g ref="#umacron"/> on manna ge<g ref="#slong"/>ihðe. <lb n="27"
+               xml:id="lb_135_27" facs="#line_135_27"/><g ref="#slong"/><g ref="#wynn"/><g
+               ref="#ywithdot"/>lce he god ælmihtig <g ref="#slong"/><g ref="#ywithdot"/>. þe ah
+               ge<g ref="#wynn"/>eald heofonon <g ref="#and"/> eor <lb n="28" xml:id="lb_135_28"
+               facs="#line_135_28"/>þan. ac þa cri<g ref="#slong"/>tenan <g ref="#slong"/>ceolon
+            beon gem<g ref="#ywithdot"/>ndige hu <g ref="#slong"/>e <lb n="29" xml:id="lb_135_29"
+               facs="#line_135_29"/>deofol d<g ref="#ywithdot"/>de þa þa he bæd æt gode <g
+               ref="#that"/> he mo<g ref="#slong"/>te fandian <lb n="30" xml:id="lb_135_30"
+               facs="#line_135_30"/>iobes; he gemacode þa <g ref="#that"/> f<g ref="#ywithdot"/>r
+            come ufan <g ref="#slong"/><g ref="#wynn"/><g ref="#ywithdot"/>lce </p>
+         <pb n="MS178_136" xml:id="MS178_136"/>
+         <p>
+            <lb n="1" xml:id="lb_136_1" facs="#line_136_1"/>of heofen<g ref="#umacron"/>. <g
+               ref="#and"/> forbærnde ealle his <g ref="#slong"/>ceap ute on felda, <g ref="#and"/>
+            þa <lb n="2" xml:id="lb_136_2" facs="#line_136_2"/>h<g ref="#ywithdot"/>rdas <g
+               ref="#slong"/>amod. butan anum þe h<g ref="#ywithdot"/>t h<g ref="#ywithdot"/>m c<g
+               ref="#ywithdot"/>ðan <g ref="#slong"/>ceolde; <lb n="3" xml:id="lb_136_3"
+               facs="#line_136_3"/>Ne <g ref="#slong"/>ende na <g ref="#slong"/>e deofol ða f<g
+               ref="#ywithdot"/>r of heofen<g ref="#umacron"/> þeah ðe h<g ref="#ywithdot"/>t ufan
+               <lb n="4" xml:id="lb_136_4" facs="#line_136_4"/>come. forðan þe he <g ref="#slong"
+               /><g ref="#ywithdot"/>lf næs on heofon<g ref="#umacron"/>, <g ref="#slong"/><g
+               ref="#ywithdot"/>ððan he for <lb n="5" xml:id="lb_136_5" facs="#line_136_5"/>h<g
+               ref="#ywithdot"/>s modign<g ref="#ywithdot"/>sse of-a<g ref="#wynn"/>orpen <g
+               ref="#wynn"/>æs. Ne eac <g ref="#slong"/>e <g ref="#wynn"/>ælhreo<g ref="#wynn"/>a
+               <lb n="6" xml:id="lb_136_6" facs="#line_136_6"/>antecri<g ref="#slong"/>t næfð þe
+            mihte <g ref="#that"/> he heofenlic f<g ref="#ywithdot"/>r a<g ref="#slong"/>endan <lb
+               n="7" xml:id="lb_136_7" facs="#line_136_7"/>mæge. þeah þe he þurh deofles cræft h<g
+               ref="#ywithdot"/>t <g ref="#slong"/><g ref="#wynn"/>a gehi<g ref="#wynn"/>ige, <lb
+               n="8" xml:id="lb_136_8" facs="#line_136_8"/>Be þam c<g ref="#wynn"/>æð <g
+               ref="#slong"/>e apo<g ref="#slong"/>tol paulus. <g ref="#that"/> se antecri<g
+               ref="#slong"/>t <g ref="#wynn"/><g ref="#ywithdot"/>rcð mid <lb n="9"
+               xml:id="lb_136_9" facs="#line_136_9"/>be d<g ref="#ywithdot"/>de runge <g ref="#and"
+            /> ged<g ref="#wynn"/><g ref="#ywithdot"/>more þas <g ref="#wynn"/>undra. <g
+               ref="#slong"/><g ref="#wynn"/>a þeah on godes <lb n="10" xml:id="lb_136_10"
+               facs="#line_136_10"/>geþafunge. for þam iudei<g ref="#slong"/>cum þe noldan underfon
+               <lb n="11" xml:id="lb_136_11" facs="#line_136_11"/>cri<g ref="#slong"/>t þe is <g
+               ref="#slong"/>oðfæ<g ref="#slong"/>n<g ref="#ywithdot"/>ss h<g ref="#ywithdot"/>m to
+               al<g ref="#ywithdot"/><g ref="#slong"/>edn<g ref="#ywithdot"/>sse <g ref="#that"/>
+               h<g ref="#ywithdot"/> under <lb n="12" xml:id="lb_136_12" facs="#line_136_12"/>fon
+            þone lea<g ref="#slong"/>an antecri<g ref="#slong"/>t. <g ref="#and"/> h<g
+               ref="#ywithdot"/> his ged<g ref="#wynn"/><g ref="#ywithdot"/>ld<g ref="#umacron"/>
+               gel<g ref="#ywithdot"/>fan h<g ref="#ywithdot"/>m <lb n="13" xml:id="lb_136_13"
+               facs="#line_136_13"/><g ref="#slong"/><g ref="#ywithdot"/>lfum to for<g ref="#wynn"
+               /><g ref="#ywithdot"/>rde<note n="b" type="critical">From 'Be þam cƿæð,' these 5.5
+               lines are absent from Cambridge, University Library Gg. 3.28</note>; Bið nu <g
+               ref="#wynn"/>i<g ref="#slong"/>licor <g ref="#that"/> geh<g ref="#wynn"/>a þis <g
+               ref="#wynn"/>ite. <g ref="#and"/>
+            <lb n="14" xml:id="lb_136_14" facs="#line_136_14"/>cunne h<g ref="#ywithdot"/>s
+            geleafan. <g ref="#wynn"/>eald h<g ref="#wynn"/>a þa micclan <g ref="#ywithdot"/>rmðe ge
+               <lb n="15" xml:id="lb_136_15" facs="#line_136_15"/>bidan <g ref="#slong"/>ceole; Ure
+            drihten bebead h<g ref="#ywithdot"/>s di<g ref="#slong"/>cipulum <g ref="#that"/> hi <g
+               ref="#slong"/>ceol <lb n="16" xml:id="lb_136_16" facs="#line_136_16"/>dan læran <g
+               ref="#and"/> tæcan eall<g ref="#umacron"/> þeodum þa þing þe he <g ref="#slong"/><g
+               ref="#ywithdot"/>lf h<g ref="#ywithdot"/>m tæhte. <lb n="17" xml:id="lb_136_17"
+               facs="#line_136_17"/>ac þæra is nu to l<g ref="#ywithdot"/>t þe <g ref="#wynn"/>el <g
+               ref="#wynn"/>ille tæcan. <g ref="#and"/>
+            <g ref="#wynn"/>el <g ref="#wynn"/>ille b<g ref="#ywithdot"/><g ref="#slong"/>nian; <lb
+               n="18" xml:id="lb_136_18" facs="#line_136_18"/>Se <g ref="#ywithdot"/>lca drihten
+               cl<g ref="#ywithdot"/>pode þurh his <g ref="#wynn"/>itegan ezechiel; gif <lb n="19"
+               xml:id="lb_136_19" facs="#line_136_19"/>þu ne ge<g ref="#slong"/>tent<g ref="#slong"
+            />t þone unriht<g ref="#wynn"/>isan. <g ref="#and"/> h<g ref="#ywithdot"/>ne ne mana<g
+               ref="#slong"/>t. <g ref="#that"/> he <lb n="20" xml:id="lb_136_20"
+               facs="#line_136_20"/>fram h<g ref="#ywithdot"/>s arleasn<g ref="#ywithdot"/>sse gec<g
+               ref="#ywithdot"/>rre <g ref="#and"/> l<g ref="#ywithdot"/>bbe. þonne <g ref="#slong"
+               /><g ref="#wynn"/><g ref="#ywithdot"/>lt se <lb n="21" xml:id="lb_136_21"
+               facs="#line_136_21"/>arlea<g ref="#slong"/>a on his arleasn<g ref="#ywithdot"
+               />sse<note n="c" type="critical">Cambridge, Univerisity College MS Gg 3.28 reads
+               'unrihtƿisnẏsse'</note>. <g ref="#and"/> ic <g ref="#wynn"/>ille ofgan æt þe h<g
+               ref="#ywithdot"/>s <lb n="22" xml:id="lb_136_22" facs="#line_136_22"/>blod; <g
+               ref="#that"/> is his l<g ref="#ywithdot"/>re; Gif þu þonne þone arlea<g ref="#slong"
+            />an ge<g ref="#wynn"/>ar <lb n="23" xml:id="lb_136_23" facs="#line_136_23"/>na<g
+               ref="#slong"/>t. <g ref="#and"/> he nele fram h<g ref="#ywithdot"/>s unrihte<note
+               n="d" type="critical">Cambridge, Univerisity College MS Gg 3.28 reads
+               'arleasnẏsse'</note> gec<g ref="#ywithdot"/>rran. þu al<g ref="#ywithdot"/><g
+               ref="#slong"/>[d]est <lb n="24" xml:id="lb_136_24" facs="#line_136_24"/>þine sa<g
+               ref="#wynn"/>le mid þære m<g ref="#ywithdot"/>negunge; <g ref="#and"/> se arlea<g
+               ref="#slong"/>a <g ref="#slong"/><g ref="#wynn"/><g ref="#ywithdot"/>lt on h<g
+                  ref="#ywithdot"/>s <lb n="25" xml:id="lb_136_25" facs="#line_136_25"/>unriht<g ref="#wynn"/>isn<g ref="#ywithdot"/>sse; Eft c<g
+               ref="#wynn"/>æð se ælmihtiga god to þ<g ref="#amacron"/>
+            <g ref="#wynn"/>itegan <lb n="26" xml:id="lb_136_26" facs="#line_136_26"/>i<g
+               ref="#slong"/>aiam; Cl<g ref="#ywithdot"/>pa <g ref="#and"/> ne ge<g ref="#slong"/><g
+               ref="#wynn"/>ic þu. ahefe þine <g ref="#slong"/>temne <g ref="#slong"/><g ref="#wynn"
+            />a <g ref="#slong"/><g ref="#wynn"/>a <lb n="27" xml:id="lb_136_27" facs="#line_136_27"
+               />b<g ref="#ywithdot"/>me <g ref="#and"/> c<g ref="#ywithdot"/>ð minum folce heora
+            leahtras; <g ref="#and"/> iacobes <lb n="28" xml:id="lb_136_28" facs="#line_136_28"
+            />hirede heora <g ref="#slong"/><g ref="#ywithdot"/>nna. For <g ref="#slong"/><g
+               ref="#wynn"/><g ref="#ywithdot"/>lc<g ref="#umacron"/> bebod<g ref="#umacron"/><note
+               n="2" type="comment">Here the manuscripts diverge. All but Gg. 3.28 follow mostly the
+               text found here; Gg. 3.28 adds another almost 170 words addressing future scribes of
+               the text.</note>; <g ref="#wynn"/>e secgað eo<g ref="#wynn"/>
+            <lb n="29" xml:id="lb_136_29" facs="#line_136_29"/>þas lare. <g ref="#that"/> ge æfre
+               gel<g ref="#ywithdot"/>fan on þone ælmihtigan god. <lb n="30" xml:id="lb_136_30"
+               facs="#line_136_30"/><g ref="#slong"/>e þe ealle ge<g ref="#slong"/>ceafte ge<g
+               ref="#slong"/>ceop þurh h<g ref="#ywithdot"/>s mihte. þam <g ref="#slong"/><g
+               ref="#ywithdot"/>
+         </p>
+         <pb n="MS178_137" xml:id="MS178_137"/>
+         <p>
+            <lb n="1" xml:id="lb_137_1" facs="#line_137_1"/><g ref="#wynn"/><g ref="#ywithdot"
+               />rðm<g ref="#ywithdot"/>nt <g ref="#and"/>
+            <g ref="#wynn"/>uldor a to <g ref="#wynn"/>orulde. amen </p>
+      </body>
+      <back>
+         <div n="Translation of Ælfric's Preface" type="translation" xml:id="PC_trans_modE1"
+            xml:lang="eng">
+            <head rend="bold">Preface to Ælfric's First Series of Catholic Homilies</head>
+            <lb n="" xml:id="trans_0" rend="empty"/>
+            <p>Men have need of sound instruction, even moreso at this time at the end of the world,
+               when there will be many dangers for mankind before the end comes. Our Lord said as
+               much to his disciples in His gospel: “Then there will be such afflictions as have
+               never been from the beginning of the world. Many false Christs will come in my name,
+               saying ‘I am Christ,’ and will do many signs and wonders to deceive mankind, as well
+               as the elect, if they can. And unless Almighty God shortens those days, all men will
+               die; yet for his elect, he will shorten those days.” <lb n="" xml:id="trans_1"
+                  rend="empty"/> With God’s help, everyone may more easily withstand the coming
+               trials, if he is established in biblical doctrine; for those who continue in the
+               faith until the world end will be saved. Many trials and tribulations will come into
+               this world before the end, and they are the heralds of eternal damnation for those
+               evil men who will suffer forever in dark hell for their sinful deeds. Then the
+               Antichrist will come, who is fleshly man and true devil, just as our Savior is truly
+               man and God in one person. And then the visible devil will perform countless wonders
+               and say that he himself is God, and will seduce mankind to his heresy. Yet his time
+               will not be long, because the wrath of God will destroy him and this world will end
+               soon after. <lb n="" xml:id="trans_2" rend="empty"/> Christ our Lord healed the weak
+               and sickly, and the devil who is called Antichrist (that is rightly,
+               Opposite-of-Christ) weakens and sickens those in good health, and heals no one from
+               illness except those whom he earlier corrupted himself. He and his followers corrupt
+               the bodies of men in secret through the devil’s power, and then they heal them in
+               public in the sight of men; but they cannot heal any whom God Himself afflicted.
+               Through his evilness he seduces men to turn from faith in their Maker to his
+               artifices, because he is the source of artifice and evilness. The Almighty God
+               permits the honorless Antichrist to work signs and wonders and persecution for three
+               and a half years, for in that time there will be so great evilness and crookedness
+               among mankind that they will be well-deserving of that devilish persecution, to the
+               eternal damnation of them that bow to him and to the endless joy of them who by faith
+               resist him. <lb n="" xml:id="trans_3" rend="empty"/> God also permits his elect
+               servants to be cleansed from all sin through great persecution, just as gold is tried
+               by fire. The devil slays those who stand against him, and then, in holy martyrdom,
+               they go to the heavenly kingdom; he honors those who believe his lies, and they will
+               afterward have eternal torment as the reward for their heresy. The honorless one will
+               cause fire to come from above, as if from heaven in the sight of men, as if he were
+               God Almighty who has power over heaven and earth. But the Christian must then be
+               mindful of how the devil acted when he asked God that he might tempt Job: he made
+               fire come from above as if from heaven and burned up all his sheep out in the field
+               and the shepherds with them, except the one that should tell it to him. The devil did
+               not send fire from heaven, though it came from above, because he himself was not in
+               heaven, not since he was cast out because of his arrogance. Neither does the cruel
+               Antichrist have the power that he might send heavenly fire, although he may appear to
+               do so through the devil’s craftiness. <lb n="" xml:id="trans_4" rend="empty"/> It
+               will be wiser now for everyone to be aware of this and know his belief, in case
+               anyone should have to endure this great misery. Our Lord commanded his disciples to
+               learn and to teach all people the things which he himself taught them; but of those
+               there are now too few who will teach it well and exemplify it well. The same Lord
+               also cried through his prophet Ezekiel: “If you do not oppose the unrighteous and
+               admonish him that he should turn from his wickedness and live, then will the wicked
+               die in his unrighteousness, and I will exact from you his blood (that is, his
+               destruction). But if you do warn the unrighteous, and he will not turn from his
+               wickedness, you will free your soul with that admonition, and the wicked will die in
+               his unrighteousness.” Again, the Almighty spoke to the prophet Isaiah: “Cry out and
+               do not stop, raise your voice like a trumpet, and declare to my people their faults
+               and to the house of Jacob their sins.” With such commands in mind, we teach these
+               lessons to you, that you may ever believe in God Almighty, who crafted all creation
+               through his power, to whom be honor and glory now and forever. Amen. </p>
+         </div>
+      </back>
+   </text>
+</TEI>
